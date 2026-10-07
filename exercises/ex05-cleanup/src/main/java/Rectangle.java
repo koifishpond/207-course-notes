@@ -21,9 +21,6 @@ public class Rectangle {
     }
 
     public boolean isLargerThan(Rectangle other){
-        if(area() > other.area())
-            return true;
-        else
-            return false;
+        return area() > other.area();
     }
 }
