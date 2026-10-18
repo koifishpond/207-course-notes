@@ -3,6 +3,7 @@
  *
  * <p>This interface is complete — you do not need to change it.
  */
+@SuppressWarnings("checkstyle:AbbreviationAsWordInName")
 public interface IWorker {
 
   /**
